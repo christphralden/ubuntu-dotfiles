@@ -1,0 +1,4 @@
+---
+"workspace:show_theme_chooser": alt-shift-P
+"terminal:copy": none
+"terminal:paste": ctrl-v

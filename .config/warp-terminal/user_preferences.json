@@ -1,0 +1,27 @@
+{
+  "prefs": {
+    "SystemTheme": "false",
+    "CrashReportingEnabled": "false",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-09-22T07:03:57.649901Z\",\"is_unlimited\":false}",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "OpenWindowsAtCustomSize": "false",
+    "NotebookFontSize": "14.0",
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"BlockAction\"},{\"Action\":\"CommandSearch\"},{\"Action\":\"SplitPane\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"}]",
+    "AgentModeOnboardingBlockShown": "true",
+    "AutosuggestionAcceptedCount": "2",
+    "Spacing": "\"Normal\"",
+    "SameLinePromptBlockState": "\"DoNotShow\"",
+    "AliasExpansionBannerSeen": "true",
+    "ChangelogVersions": "{\"v0.2024.08.27.08.02.stable_02\":true}",
+    "ShouldDimInactivePanes": "true",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "FontSize": "14.0",
+    "Theme": "{\"Custom\":{\"name\":\"Tokyo Night Transparent\",\"path\":\"/home/christphralden/.local/share/warp-terminal/themes/tokyonight-transparent.yaml\"}}",
+    "AIRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-09-22T07:03:57.649901Z\",\"is_unlimited\":false}",
+    "TelemetryEnabled": "false",
+    "ExperimentId": "8dcfdaed-c6cc-4a75-b335-dc2338f3f5b1",
+    "EmacsBindingsBannerState": "\"Dismissed\"",
+    "OverrideOpacity": "100",
+    "FontName": "\"MesloLGS NF\""
+  }
+}
