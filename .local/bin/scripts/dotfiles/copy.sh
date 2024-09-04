@@ -14,7 +14,7 @@ run() {
   )
 
   local files_to_copy_to_config=(
-    # "$HOME/.config/wezterm"
+    "$HOME/.config/wezterm"
     "$HOME/.config/nvim"
     "$HOME/.config/warp-terminal"
     # "$HOME/.config/aerospace"
