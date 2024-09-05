@@ -5,11 +5,11 @@ local config = wez.config_builder()
 -- General Options
 
 config.enable_tab_bar = false
-config.window_decorations = "NONE | RESIZE" -- "TITLE", "TITLE | RESIZE", "NONE"
+config.window_decorations = "NONE" -- "TITLE", "TITLE | RESIZE", "NONE"
 config.debug_key_events = false
 config.adjust_window_size_when_changing_font_size = false
 config.animation_fps = 1
-config.max_fps = 120
+config.max_fps = 60
 config.scrollback_lines = 2000
 
 config.window_close_confirmation = "AlwaysPrompt"
@@ -57,22 +57,22 @@ config.colors = {
 
 -- Theme color with background blur
 
--- config.background = {
--- 	{
--- 		source = {
--- 			Color = "#1a1b26",
--- 		},
--- 		width = "100%",
--- 		height = "100%",
--- 		opacity = 0.9,
--- 	},
--- }
+config.background = {
+	{
+		source = {
+			Color = "#1a1b26",
+		},
+		width = "100%",
+		height = "100%",
+		opacity = 0.9,
+	},
+}
 
 -- Dimmer for background
 
 local dimmer = {
-	brightness = 0.02,
-	saturation = 0.75,
+	brightness = 0.01,
+	-- saturation = 0.75,
 }
 
 -- Picture as background
@@ -80,10 +80,10 @@ local dimmer = {
 config.background = {
 	{
 		source = {
-			File = wez.config_dir .. "/backgrounds/chaeyoung-1.jpeg",
+			File = wez.config_dir .. "/backgrounds/pain.jpg",
 		},
-		width = "Cover",
-		height = "Cover",
+		width = "100%",
+		height = "Contain",
 		vertical_align = "Middle",
 		horizontal_align = "Center",
 		repeat_x = "NoRepeat",
@@ -96,12 +96,12 @@ config.background = {
 -- Window options
 
 config.window_padding = {
-	-- left = 20,
-	-- right = 40,
-	-- top = 40,
-	-- bottom = 20,
+	left = 20,
+	right = 20,
+	top = 20,
+	bottom = 20,
 }
 
-config.window_background_opacity = 1
+-- config.window_background_opacity = 1
 
 return config
